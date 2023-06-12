@@ -3,17 +3,41 @@ body {
   font-size: 1rem;
   line-height: 1;
   text-align: center;
+
   color: #333;
-  margin: 0;
+  margin: 0 auto;
+
   background-image: linear-gradient(
-      115deg,
-      rgba(40, 60, 20, 0.8),
-      rgba(30, 20, 20, 0.7)
-    ),
-    url(https://e0.pxfuel.com/wallpapers/277/395/desktop-wallpaper-naruto-nine-tails-chakra-mode-uzumaki-naruto.jpg);
+    109.6deg,
+    rgba(254, 253, 205, 1) 11.2%,
+    rgba(163, 230, 255, 1) 91.1%
+  );
 }
 #main {
   margin: 30px 8px;
   padding: 15px;
   border-radius: 5px;
+}
+#image {
+  max-width: 100%;
+  margin: auto;
+  display: block;
+}
+
+section {
+  display: block;
+}
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+blockquote {
+  font-style: italic;
+  margin: 0 auto 50px auto;
+}
+
+h4 {
+  font-size: 22px;
 }
